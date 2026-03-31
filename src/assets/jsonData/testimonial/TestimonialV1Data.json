@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "review": "Working with AuxaTech was a great experience. They understood our requirements quickly and built a fast, modern, and secure website.",
+        "name": "Michel Dark",
+        "designation": "Envato Client",
+        "thumb": "10.jpg"
+    },
+    {
+        "id": 2,
+        "review": "Working with AuxaTech was a great experience. They understood our requirements quickly and built a fast, modern, and secure website.",
+        "name": "Michel Dark",
+        "designation": "Envato Client",
+        "thumb": "11.jpg"
+    },
+    {
+        "id": 3,
+        "review": "Working with AuxaTech was a great experience. They understood our requirements quickly and built a fast, modern, and secure website.",
+        "name": "Michel Dark",
+        "designation": "Envato Client",
+        "thumb": "12.jpg"
+    }
+]

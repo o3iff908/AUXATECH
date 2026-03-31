@@ -1,0 +1,76 @@
+[
+    {
+        "id": 1,
+        "title": "Graphic Design Plan",
+        "subtitle": "Free initial consultation",
+        "trial": "7 Days Free Trial",
+        "price": 20,
+        "currency": "$",
+        "button_class": "btn btn-sm circle btn-gradient effect",
+        "suitability": "Suitable For individuals & businesses",
+        "features": [
+            "Logo & brand identity design",
+            "Social media graphics",
+            "Advertising creatives",
+            "Revisions (within scope)",
+            "Social media graphics (posts, stories, ads)",
+            "Advertising creatives (banners, flyers)"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "UI/UX Design Plan",
+        "subtitle": "Free prototype preview",
+        "trial": "7 Days Free Trial",
+        "price": 60,
+        "currency": "$",
+        "button_class": "btn btn-sm circle btn-light effect",
+        "suitability": "Suitable for business",
+        "features": [
+            "Modern UI/UX design",
+            "UX research & user flow",
+            "Wireframes & prototypes",
+            "User experience optimization",
+            "Design system & style guide",
+            "Usability testing basics"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Mobile App & Web Development",
+        "subtitle": "Free consultation",
+        "trial": "7 Days Free Trial",
+        "price": 150,
+        "currency": "$",
+        "button_class": "btn btn-sm circle btn-light effect",
+        "suitability": "Suitable for business",
+        "features": [
+            "Website development (responsive)",
+            "Mobile apps (iOS & Android)",
+            "API integrations",
+            "Post-launch support",
+            "Bug fixing & maintenance",
+            "Post-launch support",
+            "Database design & management"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Cybersecurity Plan",
+        "subtitle": "Free initial analysis",
+        "trial": "7 Days Free Trial",
+        "price": 370,
+        "currency": "$",
+        "button_class": "btn btn-sm circle btn-light effect",
+        "suitability": "Suitable For individuals & businesses",
+        "features": [
+            "Security recommendations & best practices",
+            "Vulnerability assessment",
+            "Penetration testing",
+            "Detailed security reports",
+            "Basic system monitoring",
+            "Website security hardening",
+            "Security audit & risk analysis"
+        ]
+    }
+]

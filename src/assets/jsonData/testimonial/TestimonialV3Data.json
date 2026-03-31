@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "ratings": "5.0",
+        "text": "Working with AuxaTech was a great experience. They understood our requirements quickly and built a fast, modern, and secure website.",
+        "avatar": "11.jpg",
+        "name": "Michel Dark",
+        "designation": "Envato Client"
+    },
+    {
+        "id": 2,
+        "ratings": "4.7",
+        "text": "AuxaTech delivered a clean, modern website that perfectly represents our brand. The team was responsive and very professional throughout the entire project.",
+        "avatar": "12.jpg",
+        "name": "Alex Hales",
+        "designation": "Envato Client"
+    },
+    {
+        "id": 3,
+        "ratings": "4.9",
+        "text": "Working with AuxaTech was smooth from start to finish. They understood our requirements and turned our ideas into a functional digital solution.",
+        "avatar": "13.jpg",
+        "name": "Micky James",
+        "designation": "Envato Client"
+    }
+]

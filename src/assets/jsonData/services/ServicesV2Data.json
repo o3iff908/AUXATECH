@@ -1,0 +1,43 @@
+[
+    {
+    "id": 1,
+    "activeClass": "active",
+    "icon": "17.png",
+    "subTitle": "User Experience",
+    "title": "Perfect UI/UX Designing",
+    "text": "We craft intuitive and visually engaging user experiences that enhance customer satisfaction and drive business growth. Our UI/UX design focuses on usability, modern aesthetics, and seamless interaction across all digital platforms.",
+    "listData": ["Information architecture", "Digital Designer", "Interaction design"],
+    "illustration": "2.png"
+},
+{
+    "id": 2,
+    "activeClass": "",
+    "icon": "18.png",
+    "subTitle": "Creative Design",
+    "title": "Graphic Design",
+    "text": "Our graphic design services help brands communicate visually with impact. We create modern designs, social media visuals, and marketing materials that strengthen brand identity and attract the right audience.",
+    "listData": ["Content marketing", "Affiliate marketing", "Search engine optimization"],
+    "illustration": "3.png"
+},
+{
+    "id": 3,
+    "activeClass": "",
+    "icon": "19.png",
+    "subTitle": "Development",
+    "title": "Web and App Development",
+    "text": "We develop high-performance websites and mobile applications tailored to your business needs. Our solutions focus on speed, security, scalability, and delivering a smooth digital experience for your users.",
+    "listData": ["Product branding", "Retail branding", "Service branding"],
+    "illustration": "4.png"
+},
+{
+    "id": 4,
+    "activeClass": "",
+    "icon": "19.png",
+    "subTitle": "Security Solutions",
+    "title": "Cybersecurity",
+    "text": "Protect your digital assets with advanced cybersecurity solutions. We provide secure systems, threat protection, and continuous monitoring to ensure your business and customer data remain safe at all times.",
+    "listData": ["Product branding", "Retail branding", "Service branding"],
+    "illustration": "4.png"
+}
+
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "activeClass": "out",
+        "icon": "12.png",
+        "iconLight": "31.png",
+        "titleFirst": "UI/UX Designing",
+        "titleLast": "Perfect User Experience",
+        "text": "We craft intuitive and visually engaging user experiences that enhance customer satisfaction and drive business growth. Our UI/UX design focuses on usability, modern aesthetics, and seamless interaction across all digital platforms.",
+        "number": "01"
+    },
+    {
+        "id": 2,
+        "activeClass": "",
+        "icon": "13.png",
+        "iconLight": "32.png",
+        "titleFirst": "Mobile App & Web",
+        "titleLast": "Development and Design",
+        "text": "We develop high-performance websites and mobile applications tailored to your business needs. Our solutions focus on speed, security, scalability, and delivering a smooth digital experience for your users.",
+        "number": "02"
+    },
+    {
+        "id": 3,
+        "activeClass": "",
+        "icon": "15.png",
+        "iconLight": "34.png",
+        "titleFirst": "Graphic Design",
+        "titleLast": "Latest Technology",
+        "text": "Our graphic design services help brands communicate visually with impact. We create modern designs, social media visuals, and marketing materials that strengthen brand identity and attract the right audience.",
+        "number": "03"
+    },
+    {
+        "id": 4,
+        "activeClass": "",
+        "icon": "15.png",
+        "iconLight": "34.png",
+        "titleFirst": "Cybersecurity",
+        "titleLast": "Security Solutions",
+        "text": "Protect your digital assets with advanced cybersecurity solutions. We provide secure systems, threat protection, and continuous monitoring to ensure your business and customer data remain safe at all times.",
+        "number": "04"
+    }
+]

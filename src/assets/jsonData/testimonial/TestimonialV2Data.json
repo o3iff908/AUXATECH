@@ -1,0 +1,163 @@
+{
+    "quoteData": [
+        {
+            "id": 1,
+            "name": "Michel Dark",
+            "designation": "Envato Client",
+            "quote": "Working with AuxaTech was a great experience. They understood our requirements quickly and built a fast, modern, and secure website."
+        },
+        {
+            "id": 2,
+            "name": "John Doe",
+            "designation": "Business Owner",
+            "quote": "The level of support and communication from AuxaTech is outstanding. They truly care about the success of their clients."
+        },
+        {
+            "id": 3,
+            "name": "Anna Smith",
+            "designation": "Creative Director",
+            "quote": "AuxaTech delivered exactly what our business needed. Their team was professional, responsive, and the final product exceeded our expectations."
+        },
+        {
+            "id": 4,
+            "name": "James Bond",
+            "designation": "Consultant",
+            "quote": "AuxaTech provided a high-quality solution at a very reasonable cost. I highly recommend them for any digital or development project."
+        },
+        {
+            "id": 5,
+            "name": "Michel Dark",
+            "designation": "Envato Client",
+            "quote": "Working with AuxaTech was a great experience. They understood our requirements quickly and built a fast, modern, and secure website."},
+        {
+            "id": 6,
+            "name": "John Doe",
+            "designation": "Business Owner",
+            "quote": "The level of support and communication from AuxaTech is outstanding. They truly care about the success of their clients."
+        },
+        {
+            "id": 7,
+            "name": "Anna Smith",
+            "designation": "Creative Director",
+            "quote": "AuxaTech delivered exactly what our business needed. Their team was professional, responsive, and the final product exceeded our expectations."
+        },
+        {
+            "id": 8,
+            "name": "James Bond",
+            "designation": "Consultant",
+            "quote": "AuxaTech provided a high-quality solution at a very reasonable cost. I highly recommend them for any digital or development project."
+        },
+        {
+            "id": 9,
+            "name": "Michel Dark",
+            "designation": "Envato Client",
+            "quote": "Working with AuxaTech was a great experience. They understood our requirements quickly and built a fast, modern, and secure website."},
+        {
+            "id": 10,
+            "name": "John Doe",
+            "designation": "Business Owner",
+            "quote": "The level of support and communication from AuxaTech is outstanding. They truly care about the success of their clients."
+        },
+        {
+            "id": 11,
+            "name": "Anna Smith",
+            "designation": "Creative Director",
+            "quote": "AuxaTech delivered exactly what our business needed. Their team was professional, responsive, and the final product exceeded our expectations."
+        },
+        {
+            "id": 12,
+            "name": "James Bond",
+            "designation": "Consultant",
+            "quote": "AuxaTech provided a high-quality solution at a very reasonable cost. I highly recommend them for any digital or development project."
+        },
+        {
+            "id": 13,
+            "name": "Michel Dark",
+            "designation": "Envato Client",
+            "quote": "Working with AuxaTech was a great experience. They understood our requirements quickly and built a fast, modern, and secure website."},
+        {
+            "id": 14,
+            "name": "John Doe",
+            "designation": "Business Owner",
+            "quote": "The level of support and communication from AuxaTech is outstanding. They truly care about the success of their clients."
+        },
+        {
+            "id": 15,
+            "name": "Anna Smith",
+            "designation": "Creative Director",
+            "quote": "AuxaTech delivered exactly what our business needed. Their team was professional, responsive, and the final product exceeded our expectations."
+        },
+        {
+            "id": 16,
+            "name": "James Bond",
+            "designation": "Consultant",
+            "quote": "AuxaTech provided a high-quality solution at a very reasonable cost. I highly recommend them for any digital or development project."
+        }
+    ],
+    "navigationData": [
+        {
+            "id": 1,
+            "thumb": "11.jpg"
+        },
+        {
+            "id": 2,
+            "thumb": "12.jpg"
+        },
+        {
+            "id": 3,
+            "thumb": "13.jpg"
+        },
+        {
+            "id": 4,
+            "thumb": "10.jpg"
+        },
+        {
+            "id": 5,
+            "thumb": "11.jpg"
+        },
+        {
+            "id": 6,
+            "thumb": "12.jpg"
+        },
+        {
+            "id": 7,
+            "thumb": "13.jpg"
+        },
+        {
+            "id": 8,
+            "thumb": "10.jpg"
+        },
+        {
+            "id": 9,
+            "thumb": "11.jpg"
+        },
+        {
+            "id": 10,
+            "thumb": "12.jpg"
+        },
+        {
+            "id": 11,
+            "thumb": "13.jpg"
+        },
+        {
+            "id": 12,
+            "thumb": "10.jpg"
+        },
+        {
+            "id": 13,
+            "thumb": "11.jpg"
+        },
+        {
+            "id": 14,
+            "thumb": "12.jpg"
+        },
+        {
+            "id": 15,
+            "thumb": "13.jpg"
+        },
+        {
+            "id": 16,
+            "thumb": "10.jpg"
+        }
+    ]
+}

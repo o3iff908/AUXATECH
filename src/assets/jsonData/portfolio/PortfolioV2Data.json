@@ -1,0 +1,37 @@
+[
+    {
+    "id": 1,
+    "thumb": "28.jpg",
+    "tag": "Web Development",
+    "date": "January, 2026",
+    "text": "High-converting, fast, and modern websites."
+},
+{
+    "id": 2,
+    "thumb": "29.jpg",
+    "tag": "Graphic Design",
+    "date": "November, 2025",
+    "text": "Creative branding & visual identity."
+},
+{
+    "id": 3,
+    "thumb": "30.jpg",
+    "tag": "UI/UX Design",
+    "date": "December, 2025",
+    "text": "Modern, intuitive designs that elevate your brand."
+},
+{
+    "id": 4,
+    "thumb": "31.jpg",
+    "tag": "App Development",
+    "date": "October, 2025",
+    "text": "Secure, powerful Android & iOS apps."
+},
+{
+    "id": 5,
+    "thumb": "32.jpg",
+    "tag": "SaaS Development",
+    "date": "March, 2026",
+    "text": "Build, secure architecture, scalable SaaS platforms, and cloud deployment."
+}
+]
