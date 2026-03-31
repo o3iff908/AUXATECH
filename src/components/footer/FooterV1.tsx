@@ -19,6 +19,10 @@ const FooterV1 = ({ sectionClass }: DataType) => {
                                 <div className="top">
                                     <img className="regular-img" src={logoLight} alt="Image Not Found" />
                                     <img className="light-img" src={logo} alt="Image Not Found" />
+
+                                    {/* صور إضافية */}
+                                    <img src="/assets/img/1.png" alt="logo1" />
+                                    <img src="/public/assets/img/icon/2.png" alt="logo2" />
                                 </div>
                                 <ul className="address-list">
                                     <li>

@@ -14233,7 +14233,8 @@ ul.useful-link li a {
 }
 
 .footer-item .top img {
-	height: 40px;
+	max-height: 80px;
+	width: auto;
 }
 
 .footer-item .top h2 {
@@ -14254,6 +14255,17 @@ ul.useful-link li a {
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+.footer-logos {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer-logos img {
+  height: 50px;
+  width: auto;
 }
 
 .quick-btn {
