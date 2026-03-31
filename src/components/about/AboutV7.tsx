@@ -28,7 +28,7 @@ const AboutV7 = ({ sectionClass }: DataType) => {
                                             threshold={0.2}
                                             rootMargin="-50px"
                                         >
-                                            Building the right foundation of your business
+                                            We Build, Design & Secure the Future of Your Business
                                         </SplitText>
                                     </h2>
                                     <Link className="btn-animation mt-10" to="/about-2">
@@ -42,14 +42,15 @@ const AboutV7 = ({ sectionClass }: DataType) => {
                                         <div className="left">
                                             <ul className="list-style-one">
                                                 <li>
-                                                    <strong>Work</strong> info@dexus.com
+                                                    <strong>Work</strong> info@auxatech.com
                                                 </li>
                                                 <li>
-                                                    <strong>Company</strong> (+012)47 333 78 901
+                                                    <strong>Company</strong> (+44) 757 589 1777
                                                 </li>
                                             </ul>
                                             <p>
-                                                Give lady of they such they sure it. Me contained explained my education. Vulgar as hearts by garret. Perceived determine departure explained no forfeite. Give lady of they such they sure it. Me contained explained my education. Vulgar as hearts by garret. Perceived determine departure explained no forfeited he something an
+                                                From stunning design to powerful development and advanced protection — we craft high-performance digital solutions that elevate your brand, 
+                                                strengthen your presence, and deliver secure experiences your business can truly rely on.
                                             </p>
                                         </div>
                                         <div className="award-style-one">

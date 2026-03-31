@@ -2,7 +2,7 @@
     {
         "id": 1,
         "animation": "animate__animated animate__fadeInDown",
-        "count": 360,
+        "count": 16,
         "suffix": "K",
         "label": "World Customer",
         "duration": "0"
@@ -10,23 +10,23 @@
     {
         "id": 2,
         "animation": "animate__animated animate__fadeInUp",
-        "count": 98,
-        "suffix": "%",
-        "label": "Positive Rating",
+        "count": 874,
+        "suffix": "+",
+        "label": "Websites & Apps Built",
         "duration": "0.5s"
     },
     {
         "id": 3,
         "animation": "animate__animated animate__fadeInDown",
-        "count": 874,
-        "suffix": "+",
-        "label": "Total Branch",
+        "count": 99,
+        "suffix": "%",
+        "label": "Secure Systems",
         "duration": "0"
     },
     {
         "id": 4,
         "animation": "animate__animated animate__fadeInUp",
-        "count": 35,
+        "count": 12,
         "suffix": "",
         "label": "Years experience",
         "duration": "0.5s"

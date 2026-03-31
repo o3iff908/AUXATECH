@@ -36,7 +36,9 @@ const PartnerV2 = ({ sectionClass }: DataType) => {
                                     </SplitText>
                                 </h2>
                                 <p>
-                                    Perceived determine departure explained no forfeite. Give lady of they such they sure it. Me contained explained my education. Vulgar as hearts by garret. Perceived determine departure explained no forfeited he something an
+                                    Our Trusted Partner is a valued and reliable collaborator, 
+                                    combining professionalism with a strong sense of trust, 
+                                    as we work together to achieve success and build a lasting relationship.
                                 </p>
                                 <Swiper className="brand-two-carousel swiper mt-60"
                                     loop={true}
