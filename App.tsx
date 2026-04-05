@@ -17,7 +17,6 @@ import './src/assets/css/validnavs.css';
 import './src/assets/css/style.css'
 
 import Routers from './Routers';
-import RoutesScrollToTop from './src/components/utilities/RoutesScrollToTop';
 import Dependency from './src/components/utilities/Dependency';
 import { useEffect, useState } from 'react';
 import Preloader from './src/components/utilities/Preloader';
@@ -37,9 +36,8 @@ function App() {
     <>
       {isLoading ? <Preloader /> :
         <>
-          <Routers />
-          <RoutesScrollToTop />
-          <Dependency />
+        <Routers />
+        <Dependency />
         </>
       }
     </>
@@ -47,3 +45,6 @@ function App() {
 }
 
 export default App
+
+
+

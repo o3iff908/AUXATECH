@@ -1,5 +1,3 @@
-import { Route, Routes } from "react-router-dom";
-
 // PAGES
 import Home6Light from "./src/pages/site/Home6Light";
 import About2LightPage from "./src/pages/site/About2LightPage";
@@ -9,12 +7,18 @@ import ProjectLightPage from "./src/pages/site/ProjectLightPage";
 import ContactUsLightPage from "./src/pages/site/ContactUsLightPage";
 import Team2LightPage from "./src/pages/site/Team2LightPage";
 
+// ScrollToTop
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import ScrollToTop from "./src/components/ScrollToTop";
+
 // 404
 import NotFoundPage from "./src/pages/site/NotFoundPage";
 
 const Routers = () => {
-  return (
-    <Routes>
+    return (
+        <BrowserRouter>
+        <ScrollToTop /> {/* ScrollToTop */}
+        <Routes>
 
       {/* الصفحة الرئيسية */}
         <Route path="/" element={<Home6Light />} />
@@ -31,7 +35,9 @@ const Routers = () => {
         <Route path="*" element={<NotFoundPage />} />
 
     </Routes>
+    </BrowserRouter>
   );
 };
 
 export default Routers;
+
