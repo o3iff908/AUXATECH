@@ -9,7 +9,7 @@ interface DataType {
     designation?: string;
 }
 
-const SingleTestimonialV3 = ({ testimonial }: { testimonial: DataType }) => {
+const SingleTestimonialV3 = ({ testimonial, setActive }: { testimonial: DataType, setActive: any }) => {
     const { ratings, text, avatar, name, designation } = testimonial
 
     return (
@@ -24,7 +24,14 @@ const SingleTestimonialV3 = ({ testimonial }: { testimonial: DataType }) => {
                 <p>{text}</p>
                 <div className="tm-provider">
                     <div className="thumb">
-                        <img src={`/assets/img/team/${avatar}`} alt="Image Not Found" width={200} height={200} />
+                        <img
+                            src={`/assets/img/team/${avatar}`}
+                            alt="Image Not Found"
+                            width={200}
+                            height={200}
+                            onClick={() => setActive(testimonial)}
+                            style={{ cursor: "pointer" }}
+                            />
                     </div>
                     <div className="content">
                         <h4>{name}</h4>
@@ -37,3 +44,5 @@ const SingleTestimonialV3 = ({ testimonial }: { testimonial: DataType }) => {
 };
 
 export default SingleTestimonialV3;
+
+

@@ -1,3 +1,7 @@
+import { useState } from "react";
+
+const [active, setActive] = useState(TestimonialV3Data[0]);
+
 [
     {
         "id": 1,
@@ -24,3 +28,5 @@
         "designation": "Envato Client"
     }
 ]
+
+

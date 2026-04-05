@@ -9,6 +9,13 @@ interface DataType {
 }
 
 const TestimonialV3 = ({ sectionClass }: DataType) => {
+    import { useState } from "react";
+
+const TestimonialV3 = ({ sectionClass }: DataType) => {
+
+    const [active, setActive] = useState(TestimonialV3Data[0]); // 🔥 هذا مهم
+
+    return 
     return (
         <>
             <div className={`testimonial-style-three-area default-padding ${sectionClass ? sectionClass : ""}`}>
@@ -44,6 +51,11 @@ const TestimonialV3 = ({ sectionClass }: DataType) => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
+                            <div style={{ textAlign: "center", marginBottom: "30px" }}>
+                                <p>{active.text}</p>
+                                <h4>{active.name}</h4>
+                                <span>{active.designation}</span>
+                            </div>
                             <Swiper className="testimonial-style-three-carousel swiper"
                                 loop={true}
                                 slidesPerView={1}
@@ -68,7 +80,10 @@ const TestimonialV3 = ({ sectionClass }: DataType) => {
                                 <div className="swiper-wrapper">
                                     {TestimonialV3Data.map(testimonial =>
                                         <SwiperSlide key={testimonial.id}>
-                                            <SingleTestimonialV3 testimonial={testimonial} />
+                                            <SingleTestimonialV3
+                                                testimonial={testimonial}
+                                                setActive={setActive}
+                                            />
                                         </SwiperSlide>
                                     )}
                                 </div>
