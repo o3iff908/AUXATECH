@@ -2,16 +2,16 @@ const Preloader = () => {
     return (
         <>
             <div id="preloader">
-                <div className="dixor-loader-inner">
-                    <div className="dixor-loader">
-                        <span className="dixor-loader-item" />
-                        <span className="dixor-loader-item" />
-                        <span className="dixor-loader-item" />
-                        <span className="dixor-loader-item" />
-                        <span className="dixor-loader-item" />
-                        <span className="dixor-loader-item" />
-                        <span className="dixor-loader-item" />
-                        <span className="dixor-loader-item" />
+                <div className="Auxa Digital-loader-inner">
+                    <div className="Auxa Digital-loader">
+                        <span className="Auxa Digital-loader-item" />
+                        <span className="Auxa Digital-loader-item" />
+                        <span className="Auxa Digital-loader-item" />
+                        <span className="Auxa Digital-loader-item" />
+                        <span className="Auxa Digital-loader-item" />
+                        <span className="Auxa Digital-loader-item" />
+                        <span className="Auxa Digital-loader-item" />
+                        <span className="Auxa Digital-loader-item" />
                     </div>
                 </div>
             </div>

@@ -17,7 +17,7 @@ const Home1 = () => {
     return (
         <>
             <Helmet>
-                <title>AUXA TECH - Creative Digital Agency</title>
+                <title>AUXA DIGITAL - Creative Digital Agency</title>
             </Helmet>
 
             <div className="smooth-scroll-container">

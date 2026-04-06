@@ -15,7 +15,7 @@ const Home6Light = () => {
     return (
         <>
             <Helmet>
-                <title>AUXA TECH - Creative Digital Agency</title>
+                <title>AUXA DIGITAL - Creative Digital Agency</title>
             </Helmet>
 
             <HeaderV6 />

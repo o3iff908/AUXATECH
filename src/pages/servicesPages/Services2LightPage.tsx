@@ -12,7 +12,7 @@ const Services2LightPage = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - Services 2 Light</title>
+                <title>Auxa Digital - Services 2 Light</title>
             </Helmet>
 
             <LayoutV1>

@@ -12,7 +12,7 @@ const Services4LightPage = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - Services 4 Light</title>
+                <title>Auxa Digital - Services 4 Light</title>
             </Helmet>
 
             <LayoutV1>

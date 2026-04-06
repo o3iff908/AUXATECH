@@ -9,7 +9,7 @@ const ContactUsLightPage = () => {
     return (
         <>
             <Helmet>
-                <title>AUXA TECH - Contact Us</title>
+                <title>AUXA DIGITAL - Contact Us</title>
             </Helmet>
 
             <LayoutV1>

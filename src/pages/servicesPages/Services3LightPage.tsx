@@ -12,7 +12,7 @@ const Services3LightPage = () => {
     return (
         <>
             <Helmet>
-                <title>AUXA TECH - Our Services</title>
+                <title>AUXA DIGITAL - Our Services</title>
             </Helmet>
 
             <LayoutV1>

@@ -37,7 +37,7 @@ const FooterV2 = ({ sectionClass }: DataType) => {
                                 <div className="footer-contact">
                                     <ul>
                                         <li>
-                                            <a href="mailto:info@auxatech.com">info@auxatech.com</a>
+                                            <a href="mailto:info@auxadigital.com">info@auxadigital.com</a>
                                         </li>
                                         <li>
                                             <a href="tel:+447575891777">+44 757 589 1777</a>
@@ -72,7 +72,7 @@ const FooterV2 = ({ sectionClass }: DataType) => {
                             </div>
                             <div className="col-lg-6 text-end">
                                 <p>
-                                    Copyright &copy; {(new Date().getFullYear())} Auxa Tech. All Rights Reserved
+                                    Copyright &copy; {(new Date().getFullYear())} AUXA DIGITAL. All Rights Reserved
                                 </p>
                             </div>
                         </div>

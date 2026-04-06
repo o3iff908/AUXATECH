@@ -8,7 +8,7 @@ const NotFoundPage = () => {
     return (
         <>
             <Helmet>
-                <title>AUXA TECH - Page Not Found</title>
+                <title>AUXA DIGITAL - Page Not Found</title>
             </Helmet>
 
             <LayoutV1>

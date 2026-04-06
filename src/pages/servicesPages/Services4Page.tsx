@@ -13,7 +13,7 @@ const Services4Page = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - Services 4</title>
+                <title>Auxa Digital - Services 4</title>
             </Helmet>
 
             <LayoutV1>

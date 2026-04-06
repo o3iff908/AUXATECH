@@ -8,7 +8,7 @@ const BlogWithSidebarLightPage = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - Blog With Sidebar Light</title>
+                <title>Auxa Digital - Blog With Sidebar Light</title>
             </Helmet>
 
             <div className="smooth-scroll-container">

@@ -9,7 +9,7 @@ const Blog3ColumnPage = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - Blog 3 Column</title>
+                <title>Auxa Digital - Blog 3 Column</title>
             </Helmet>
 
             <LayoutV1>

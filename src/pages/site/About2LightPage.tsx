@@ -12,11 +12,11 @@ const About2LightPage = () => {
     return (
         <>
             <Helmet>
-                <title>AUXA TECH - About us</title>
+                <title>AUXA DIGITAL - About Auxa Digital</title>
             </Helmet>
 
             <LayoutV1>
-                <Breadcrumb title='About Company' breadCrumb='About us' />
+                <Breadcrumb title='About Auxa Digital' breadCrumb='About Auxa Digital' />
                 <AboutV4 sectionClass='default-padding-bottom' />
                 <FunFactV1 sectionClass='default-padding-bottom' />
                 <ZoomVideoV1 />

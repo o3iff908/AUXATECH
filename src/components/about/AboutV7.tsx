@@ -42,7 +42,7 @@ const AboutV7 = ({ sectionClass }: DataType) => {
                                         <div className="left">
                                             <ul className="list-style-one">
                                                 <li>
-                                                    <strong>Work</strong> info@auxatech.com
+                                                    <strong>Work</strong> info@auxadigital.com
                                                 </li>
                                                 <li>
                                                     <strong>Company</strong> (+44) 757 589 1777

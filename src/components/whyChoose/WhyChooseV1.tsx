@@ -19,7 +19,7 @@ const WhyChooseV1 = ({ sectionClass }: DataType) => {
                         <div className="col-lg-7">
                             <div className="choose-us-style-one">
                                 <div className="pl-80 pl-md-0 pl-xs-0">
-                                    <h4 className="sub-title">Why AUXA TECH</h4>
+                                    <h4 className="sub-title">Why AUXA DIGITAL</h4>
                                     <h2 className="title">Delivering High-Quality Solutions</h2>
                                     <div className="faq-style-one accordion mt-30" id="faqAccordion">
                                         <div className="accordion-item">
@@ -32,7 +32,7 @@ const WhyChooseV1 = ({ sectionClass }: DataType) => {
                                                 <div className="accordion-body">
                                                     <p>
                                                         With years of experience delivering high-quality digital solutions, 
-                                                        AuxaTech has successfully completed projects across multiple industries. 
+                                                        Auxa Digital has successfully completed projects across multiple industries. 
                                                         Our focus on reliability, innovation, and quality ensures consistent client satisfaction.
                                                     </p>
                                                 </div>
@@ -47,7 +47,7 @@ const WhyChooseV1 = ({ sectionClass }: DataType) => {
                                             <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
                                                 <div className="accordion-body">
                                                     <p>
-                                                        AuxaTech provides flexible and scalable solutions designed to support business growth. 
+                                                        Auxa Digital provides flexible and scalable solutions designed to support business growth. 
                                                         We offer cost-effective services that fit different budgets while maintaining high standards of performance and quality.
                                                     </p>
                                                 </div>
@@ -62,7 +62,7 @@ const WhyChooseV1 = ({ sectionClass }: DataType) => {
                                             <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
                                                 <div className="accordion-body">
                                                     <p>
-                                                        At AuxaTech, we work closely with our clients as trusted partners.
+                                                        At Auxa Digital, we work closely with our clients as trusted partners.
                                                         Our team provides reliable guidance, continuous support,
                                                         and fast solutions to ensure every project runs smoothly and achieves the best possible results.
                                                     </p>

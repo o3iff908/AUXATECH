@@ -8,36 +8,39 @@ import ContactUsLightPage from "./src/pages/site/ContactUsLightPage";
 import Team2LightPage from "./src/pages/site/Team2LightPage";
 
 // ScrollToTop
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import ScrollToTop from "./src/components/ScrollToTop";
 
 // 404
 import NotFoundPage from "./src/pages/site/NotFoundPage";
 
 const Routers = () => {
-    return (
-        <BrowserRouter>
-        <ScrollToTop /> {/* ScrollToTop */}
+  return (
+    <>
+      <ScrollToTop /> {/* ScrollToTop */}
+
         <Routes>
 
-      {/* الصفحة الرئيسية */}
-        <Route path="/" element={<Home6Light />} />
+          {/* الصفحة الرئيسية */}
+            <Route path="/" element={<Home6Light />} />
 
-      {/* الصفحات */}
-        <Route path="/about" element={<About2LightPage />} />
-        <Route path="/team" element={<Team2LightPage />} />
-        <Route path="/services" element={<Services3LightPage />} />
-        <Route path="/projects" element={<ProjectLightPage />} />
-        <Route path="/project-details/:id" element={<ProjectDetailsLightPage />} />
-        <Route path="/contact" element={<ContactUsLightPage />} />
+          {/* الصفحات */}
+            <Route path="/about" element={<About2LightPage />} />
+            <Route path="/team" element={<Team2LightPage />} />
+            <Route path="/services" element={<Services3LightPage />} />
+            <Route path="/projects" element={<ProjectLightPage />} />
+            <Route path="/project-details/:id" element={<ProjectDetailsLightPage />} />
+            <Route path="/contact" element={<ContactUsLightPage />} />
 
-      {/* 404 */}
-        <Route path="*" element={<NotFoundPage />} />
+          {/* 404 */}
+            <Route path="*" element={<NotFoundPage />} />
 
-    </Routes>
-    </BrowserRouter>
+        </Routes>
+    </>
   );
 };
 
 export default Routers;
+
+
 

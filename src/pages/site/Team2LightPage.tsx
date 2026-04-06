@@ -9,7 +9,7 @@ const Team2LightPage = () => {
     return (
         <>
             <Helmet>
-                <title>AUXA TECH - Our Experts</title>
+                <title>AUXA DIGITAL - Our Experts</title>
             </Helmet>
 
             <LayoutV1>

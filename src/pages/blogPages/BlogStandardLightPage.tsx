@@ -8,7 +8,7 @@ const BlogStandardLightPage = () => {
     return (
         <>
             <Helmet>
-                <title>AUXA TECH - Blogs</title>
+                <title>AUXA DIGITAL - Blogs</title>
             </Helmet>
 
             <LayoutV1>

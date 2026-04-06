@@ -8,7 +8,7 @@ const Blog2ColumnLightPage = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - Blog 2 Column Light</title>
+                <title>Auxa Digital - Blog 2 Column Light</title>
             </Helmet>
 
             <LayoutV1>

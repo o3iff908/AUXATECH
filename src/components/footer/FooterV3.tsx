@@ -59,7 +59,7 @@ const FooterV3 = () => {
                                 </div>
                                 <div className="col-lg-6 text-end">
                                     <p>
-                                        Copyright &copy; {(new Date().getFullYear())} Dixor. All Rights Reserved
+                                        Copyright &copy; {(new Date().getFullYear())} Auxa Digital. All Rights Reserved
                                     </p>
                                 </div>
                             </div>

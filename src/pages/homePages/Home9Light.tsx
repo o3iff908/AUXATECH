@@ -17,7 +17,7 @@ const Home9Light = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - Home 9 Light</title>
+                <title>Auxa Digital - Home 9 Light</title>
             </Helmet>
 
             <HeaderV1 />

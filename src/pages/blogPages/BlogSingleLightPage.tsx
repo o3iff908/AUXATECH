@@ -14,7 +14,7 @@ const BlogSingleLightPage = () => {
     return (
         <>
             <Helmet>
-                <title>Dixor - Blog Single Light</title>
+                <title>Auxa Digital - Blog Single Light</title>
             </Helmet>
 
             <LayoutV1>

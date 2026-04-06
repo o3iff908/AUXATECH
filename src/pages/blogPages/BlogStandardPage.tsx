@@ -9,7 +9,7 @@ const BlogStandardPage = () => {
     return (
         <>
             <Helmet>
-                <title>AUXA TECH - Our Blog</title>
+                <title>AUXA DIGITAL - Our Blog</title>
             </Helmet>
 
             <LayoutV1>

@@ -8,7 +8,7 @@ const ProjectLightPage = () => {
     return (
         <>
             <Helmet>
-                <title>AUXA TECH - Our Projects</title>
+                <title>AUXA DIGITAL - Our Projects</title>
             </Helmet>
 
             <LayoutV1>
