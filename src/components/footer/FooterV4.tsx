@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import NewsletterV2 from '../newsletter/NewsletterV2';
 import FooterSocial from '../social/FooterSocial';
-import logoLight from '/assets/img/logo-light.png'
-import logo from '/assets/img/logo.png'
+import logoLight from '../../assets/logo-light.png';
+import logo from '../../assets/logo.png';
 
 interface DataType {
     sectionClass?: string
@@ -10,6 +10,7 @@ interface DataType {
 
 const FooterV4 = ({ sectionClass }: DataType) => {
     return (
+        
         <>
             <footer className={`${sectionClass ? sectionClass : ""}`}>
                 <div className="container">
@@ -49,14 +50,14 @@ const FooterV4 = ({ sectionClass }: DataType) => {
                             <div className="col-lg-5 offset-lg-1 footer-item">
                                 <h4 className="widget-title">Useful Link</h4>
                                 <ul className="useful-link">
-                                    <li><Link to="/about-us">About Us</Link></li>
-                                    <li><Link to="/contact-us">Contact</Link></li>
+                                    <li><Link to="/about">About Us</Link></li>
+                                    <li><Link to="/contact">Contact</Link></li>
                                     <li><Link to="/faq">FAQS</Link></li>
                                     <li><Link to="/services">Services</Link></li>
-                                    <li><Link to="/about-2">Term & Conditions</Link></li>
-                                    <li><Link to="/about-us">Privacy Policy</Link></li>
-                                    <li><Link to="/about-2">Careers</Link></li>
-                                    <li><Link to="/contact-us">Help Desk</Link></li>
+                                    {/*<li><Link to="/about-2">Term & Conditions</Link></li>*/}
+                                    {/*<li><Link to="/about-us">Privacy Policy</Link></li>*/}
+                                    {/*<li><Link to="/about-2">Careers</Link></li>*/}
+                                    <li><Link to="/contact">Help Desk</Link></li>
                                 </ul>
                                 <NewsletterV2 />
                             </div>

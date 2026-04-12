@@ -8077,7 +8077,7 @@ a.btn-full i {
 
 .service-hover-content .icon img {
 	width: 100px;
-	min-width: 100px;
+	min-width: 107px;
 }
 
 .btn-arrow-xl {
@@ -8143,8 +8143,8 @@ a.btn-full i {
 }
 
 .service-hover-content .icon img {
-	height: 70px;
-	margin-bottom: 30px;
+	height: 100px;
+	margin-bottom: 5px;
 }
 
 .image-move-bg {
@@ -19204,7 +19204,7 @@ ul.footer-social li a img {
 }
 
 .partner-two-thumb img {
-	width: 100%;
+	width: 91%;
 }
 
 .thumb-zoom img {

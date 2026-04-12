@@ -43,8 +43,8 @@ const BannerV1 = () => {
                                 </div>
                                 <Animate className='animate__animated animate__fadeInRight'>
                                     <div className="thumb">
-                                        <img className='regular-img' src={illustration5} alt="Image Not Found" />
-                                        <img className='light-img' src={illustration8} alt="Image Not Found" />
+                                        <img className='regular-img' src={illustration5} alt="" />
+                                        <img className='light-img' src={illustration8} alt="" />
                                     </div>
                                 </Animate>
                             </div>

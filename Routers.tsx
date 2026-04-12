@@ -6,6 +6,8 @@ import ProjectDetailsLightPage from "./src/pages/site/ProjectDetailsLightPage";
 import ProjectLightPage from "./src/pages/site/ProjectLightPage";
 import ContactUsLightPage from "./src/pages/site/ContactUsLightPage";
 import Team2LightPage from "./src/pages/site/Team2LightPage";
+import FaqLightPage from "./src/pages/site/FaqLightPage";
+
 
 // ScrollToTop
 import { Route, Routes } from "react-router-dom";
@@ -31,6 +33,7 @@ const Routers = () => {
             <Route path="/projects" element={<ProjectLightPage />} />
             <Route path="/project-details/:id" element={<ProjectDetailsLightPage />} />
             <Route path="/contact" element={<ContactUsLightPage />} />
+            <Route path="/faq" element={<FaqLightPage />} />
 
           {/* 404 */}
             <Route path="*" element={<NotFoundPage />} />
