@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import logo from "/assets/img/logo.png"
-import logoLight from "/assets/img/logo-light.png"
+import logo from '../../assets/logo.png';
+import logoLight from '../../assets/logo-light.png';
 import MainMenuV2 from "./MainMenuV2";
 import HeaderNewsLetter from "./HeaderNewsLetter";
 import SocialShareV3 from "../social/SocialShareV3";

@@ -1,6 +1,6 @@
 import FooterSocial from '../social/FooterSocial';
-import logo from "/assets/img/logo.png";
-import logoLight from "/assets/img/logo-light.png";
+import logo from '../../assets/logo.png';
+import logoLight from '../../assets/logo-light.png';
 import { Link } from "react-router-dom";
 import SidebarMenu from './SidebarMenu';
 import useSidebarMenu from '../../hooks/useSidebarMenu';
