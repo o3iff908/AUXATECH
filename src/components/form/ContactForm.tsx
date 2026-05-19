@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
-
+import emailjs from "@emailjs/browser";
+import { useRef, useState } from "react";
 import { toast } from "react-toastify";
 
 interface FormEventHandler {
@@ -8,17 +9,39 @@ interface FormEventHandler {
 
 const ContactForm = () => {
 
-    const handleForm: FormEventHandler = (event) => {
-        event.preventDefault()
-        const form = event.target as HTMLFormElement;
-        form.reset()
-        toast.success("Thanks For Your Email!")
-    }
+    const form = useRef<HTMLFormElement>(null);
+
+        const handleForm: FormEventHandler = (event) => {
+        event.preventDefault();
+
+        if (!form.current) return;
+
+        emailjs
+            .sendForm(
+                "service_7iyqngd",
+                "template_1lzfusx",
+                form.current,
+                "Tr9-BMOta1N_YTSoO"
+            )
+            .then(
+                () => {
+                    toast.success("Message sent successfully!");
+                    form.current?.reset();
+                },
+                (error) => {
+                    console.log(error);
+                    toast.error("Failed to send message");
+                }
+            );
+};
 
     return (
         <>
-            <form className="contact-form contact-form" onSubmit={handleForm}>
-                <div className="row">
+<form
+    ref={form}
+    className="contact-form contact-form"
+    onSubmit={handleForm}>
+                    <div className="row">
                     <div className="col-lg-12">
                         <div className="form-group">
                             <input className="form-control" id="name" name="name" placeholder="Name" type="text" required autoComplete="off" />
@@ -40,13 +63,14 @@ const ContactForm = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-lg-12">
-                        <div className="form-group comments">
-                            <textarea className="form-control" id="comments" name="comments" placeholder="Tell Us About Project *" required autoComplete="off" />
-                        </div>
-                    </div>
-                </div>
+                <textarea
+                    className="form-control"
+                    id="message"
+                    name="message"
+                    placeholder="Tell Us About Project *"
+                    required
+                    autoComplete="off"
+                />
                 <div className="row">
                     <div className="col-lg-12">
                         <button type="submit" name="submit" id="submit">
