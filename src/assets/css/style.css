@@ -19693,3 +19693,32 @@ nav.navbar.validnavs .navbar-collapse.collapse.show img.light-img {
 		display: none !important;
 	}
 }
+
+.cookie-container {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  flex-wrap: wrap !important;
+  gap: 15px;
+}
+
+.cookie-buttons {
+  display: flex !important;
+  gap: 12px;
+  align-items: center;
+  margin-right: 100px; /* يبعدها عن الشات */
+}
+
+@media (max-width: 768px) {
+
+  .cookie-container {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+
+  .cookie-buttons {
+    margin-right: 0;
+    width: 100%;
+    justify-content: center;
+  }
+}

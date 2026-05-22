@@ -15,7 +15,7 @@ import './src/assets/css/flaticon-set.css';
 import './src/assets/css/helper.css';
 import './src/assets/css/unit-test.css';
 import './src/assets/css/validnavs.css';
-import './src/assets/css/style.css'
+import './src/assets/css/style.css';
 
 import Routers from './Routers';
 import Dependency from './src/components/utilities/Dependency';
@@ -42,32 +42,45 @@ function App() {
           <Routers />
           <Dependency />
 
-          <CookieConsent
-            location="bottom"
-            buttonText="Accept"
-            declineButtonText="Decline"
-            enableDeclineButton
-            cookieName="auxaConsent"
-            style={{
-              background: "#111",
-              color: "#fff",
-              padding: "15px"
-            }}
-            buttonStyle={{
-              background: "#00bcd4",
-              color: "#fff",
-              borderRadius: "8px",
-              padding: "10px 20px"
-            }}
-            declineButtonStyle={{
-              background: "#444",
-              color: "#fff",
-              borderRadius: "8px",
-              padding: "10px 20px"
-            }}
-          >
-            We use cookies to improve your experience, analyze traffic, and personalize content.
-          </CookieConsent>
+            <CookieConsent
+              location="bottom"
+              buttonText="Accept"
+              declineButtonText="Decline"
+              enableDeclineButton
+              cookieName="auxaConsent"
+              containerClasses="cookie-container"
+              contentClasses="cookie-content"
+              buttonWrapperClasses="cookie-buttons"
+              style={{
+                background: "#050505",
+                borderTop: "1px solid rgba(255,255,255,0.08)",
+                padding: "18px 25px",
+              }}
+              contentStyle={{
+                margin: "0",
+                color: "#fff",
+                fontSize: "15px",
+                flex: "1"
+              }}
+              buttonStyle={{
+                background: "#00bcd4",
+                color: "#fff",
+                borderRadius: "10px",
+                padding: "10px 22px",
+                fontWeight: "600",
+                border: "none"
+              }}
+              declineButtonStyle={{
+                background: "#2a2a2a",
+                color: "#fff",
+                borderRadius: "10px",
+                padding: "10px 22px",
+                fontWeight: "600",
+                border: "none"
+              }}
+              >
+              We use cookies to improve your experience, analyze traffic, and personalize content.
+            </CookieConsent>
 
         </>
       )}
