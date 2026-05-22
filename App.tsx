@@ -1,3 +1,4 @@
+import CookieConsent from "react-cookie-consent";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.js';
 import 'swiper/css/bundle';
@@ -31,6 +32,33 @@ function App() {
       setIsLoading(false)
     }, 1200)
   }, [])
+
+<CookieConsent
+    location="bottom"
+    buttonText="Accept"
+    declineButtonText="Decline"
+    enableDeclineButton
+    cookieName="auxaConsent"
+    style={{
+        background: "#111",
+        color: "#fff",
+        padding: "15px"
+    }}
+    buttonStyle={{
+        background: "#00bcd4",
+        color: "#fff",
+        borderRadius: "8px",
+        padding: "10px 20px"
+    }}
+    declineButtonStyle={{
+        background: "#444",
+        color: "#fff",
+        borderRadius: "8px",
+        padding: "10px 20px"
+    }}
+    >
+        We use cookies to improve your experience, analyze traffic, and personalize content.
+    </CookieConsent>
 
   return (
     <>
