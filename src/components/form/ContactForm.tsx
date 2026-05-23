@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
+import ReCAPTCHA from "react-google-recaptcha";
 import { toast } from "react-toastify";
 
 interface FormEventHandler {
@@ -10,9 +11,14 @@ interface FormEventHandler {
 const ContactForm = () => {
 
     const form = useRef<HTMLFormElement>(null);
+    const [captchaValue, setCaptchaValue] = useState<string | null>(null);
 
         const handleForm: FormEventHandler = (event) => {
         event.preventDefault();
+        if (!captchaValue) {
+            toast.error("Please verify that you are not a robot");
+            return;
+        }
 
         if (!form.current) return;
 
@@ -71,6 +77,14 @@ const ContactForm = () => {
                     required
                     autoComplete="off"
                 />
+                <div className="row">
+                    <div className="col-lg-12 mb-4">
+                        <ReCAPTCHA
+                            sitekey="6Le5B_gsAAAAACINlHJqjJb0Z9C9wmTsfQTDJNAg"
+                            onChange={(value: string | null) => setCaptchaValue(value)}
+                        />
+                    </div>
+                </div>
                 <div className="row">
                     <div className="col-lg-12">
                         <button type="submit" name="submit" id="submit">
