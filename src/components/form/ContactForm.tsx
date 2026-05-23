@@ -80,7 +80,7 @@ const ContactForm = () => {
                 <div className="row">
                     <div className="col-lg-12 mb-4">
                         <ReCAPTCHA
-                            sitekey="6Le5B_gsAAAAACINlHJqjJb0Z9C9wmTsfQTDJNAg"
+                            sitekey="6LfkE_gsAAAAACzd16vAeEhLKl_H0lUnW0yTzZ7h"
                             onChange={(value: string | null) => setCaptchaValue(value)}
                         />
                     </div>
