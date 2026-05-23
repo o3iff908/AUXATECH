@@ -5539,6 +5539,12 @@ ul.list-style-two li:last-child {
 	padding-left: 180px;
 }
 
+.banner-ten-content .btn.btn-theme {
+	margin-left: 180px;
+	margin-top: 20px;
+	display: inline-block;
+}
+
 .banner-style-ten-left-info .fun-fact-style-two {
 	position: absolute;
 	right: -80px;
