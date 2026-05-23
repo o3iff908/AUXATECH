@@ -15676,14 +15676,19 @@ ul.footer-social li a img {
 		font-size: 70px;
 	}
 
-	.banner-ten-content h2 b {
-		display: inline-block;
-		margin: 0;
-		width: auto;
+	.banner-style-ten-area .banner-ten-content h2 {
+		white-space: nowrap;
 	}
 
-	.banner-ten-content p {
+	.banner-style-ten-area .banner-ten-content h2 b {
+		display: inline;
+		margin: 0 8px 0 0;
+		white-space: nowrap;
+	}
+
+	.banner-style-ten-area .banner-ten-content p {
 		padding: 0;
+		margin-top: 20px;
 	}
 
 	.banner-style-ten-left-info img {
